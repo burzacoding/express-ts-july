@@ -1,0 +1,24 @@
+{
+  "name": "ts-server",
+  "version": "0.0.1",
+  "description": "Backend with Typescript practices",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts --exec ts-node"
+  },
+  "author": "Burzacoding (Cesar Pintos)",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mysql2": "github:types/mysql2",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/morgan": "^1.9.3",
+    "@types/nodemon": "^1.19.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.1.0"
+  }
+}
